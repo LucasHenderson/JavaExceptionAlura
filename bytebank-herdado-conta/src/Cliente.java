@@ -1,0 +1,47 @@
+
+
+public class Cliente {
+	private String nome;
+	private String cpf;
+	private String profissao;
+	
+	public Cliente() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Cliente(String nome, String cpf, String profissao) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.profissao = profissao;
+	}
+	
+	public Cliente(String nome) {
+		super();
+		this.nome = nome;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	public String getProfissao() {
+		return profissao;
+	}
+	public void setProfissao(String profissao) {
+		this.profissao = profissao;
+	}
+
+	@Override
+	public String toString() {
+		return "Cliente [nome=" + nome + "]";
+	}
+}
